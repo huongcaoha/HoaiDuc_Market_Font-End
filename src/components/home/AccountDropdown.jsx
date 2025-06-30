@@ -21,7 +21,7 @@ export default function AccountDropdown() {
                         <li><a href="/page-account" className="flex items-center gap-2 hover:text-green-600"><i className="fi fi-rs-label" />My Voucher</a></li>
                         <li><a href="/shop-wishlist" className="flex items-center gap-2 hover:text-green-600"><i className="fi fi-rs-heart" />My Wishlist</a></li>
                         <li><a href="/page-account" className="flex items-center gap-2 hover:text-green-600"><i className="fi fi-rs-settings-sliders" />Setting</a></li>
-                        <li><a href="/page-login" className="flex items-center gap-2 hover:text-red-600"><i className="fi fi-rs-sign-out" />Sign out</a></li>
+                        <li><a href="/login" className="flex items-center gap-2 hover:text-red-600"><i className="fi fi-rs-sign-out" />Sign out</a></li>
                     </ul>
                 </div>
             )}

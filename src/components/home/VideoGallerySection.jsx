@@ -2,8 +2,8 @@ import React from "react";
 
 const videos = [
     { thumb: "/assets/imgs/video/video-1.jpg", url: "https://www.youtube.com/embed/ysz5S6PUM-U" },
-    { thumb: "/assets/imgs/video/video-2.jpg", url: "https://www.youtube.com/embed/1La4QzGeaaQ" },
-    { thumb: "/assets/imgs/video/video-3.jpg", url: "https://www.youtube.com/embed/jNQXAC9IVRw" },
+    // { thumb: "/assets/imgs/video/video-2.jpg", url: "https://www.youtube.com/embed/1La4QzGeaaQ" },
+    // { thumb: "/assets/imgs/video/video-3.jpg", url: "https://www.youtube.com/embed/jNQXAC9IVRw" },
 ];
 
 export default function VideoGallerySection() {

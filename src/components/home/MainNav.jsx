@@ -1,9 +1,10 @@
-import React from "react";
+
 import CategoriesDropdown from "./CategoriesDropdown";
 import MegaMenu from "./MegaMenu";
 import Hotline from "./Hotline";
 
 export default function MainNav() {
+
     return (
         <div className="container mx-auto flex items-center justify-between py-2">
             <div className="hidden lg:flex items-center gap-4 flex-1">
@@ -14,6 +15,7 @@ export default function MainNav() {
                     <MegaMenu />
                     <a href="/blog-category-grid" className="hover:text-green-600 font-semibold">Blog</a>
                     <a href="/page-contact" className="hover:text-green-600 font-semibold">Contact</a>
+
                 </nav>
             </div>
             {/* Hotline */}

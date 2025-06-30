@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import MegaMenu from "./MegaMenu";
 import CartDropdown from "./CartDropdown";
 import AccountDropdown from "./AccountDropdown";
 
 export default function Header() {
+    const [username, setUsername] = useState(JSON.parse(localStorage.getItem("username")) || "Guest");
+    const [avatar, setAvatar] = useState(JSON.parse(localStorage.getItem("avatarUser")) || "https://qldt.rikkei.edu.vn/assets/1-Bxx5tbqp.jpg");
     return (
         <header className="bg-white shadow sticky top-0 z-50">
             {/* <div className="w-full bg-green-100 text-green-800 py-2 text-center text-sm font-semibold">
@@ -55,6 +57,8 @@ export default function Header() {
                     <MegaMenu />
                     <a href="/blog-category-grid" className="px-4 py-2 font-semibold hover:text-green-600">Blog</a>
                     <a href="/page-contact" className="px-4 py-2 font-semibold hover:text-green-600">Contact</a>
+                    <p>Xin chào : {username}</p>
+                    <img src={avatar} alt="" width={30} height={30} className="rounded-full" />
                 </div>
             </nav>
         </header>
